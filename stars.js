@@ -87,8 +87,8 @@ function makeReviewTable(shopname, mapaddr, imgaddr, menu1, price1, rank1, menu2
 
 //실제데이터 : shopname, mapaddr, imgaddr,  menu1, price1, rank1, menu2, price2, rank2, date
 document.write(makeReviewTable("각방", "http://naver.me/5LfKibcx", "http://blogfiles.naver.net/MjAxOTEyMDNfMTM4/MDAxNTc1MzM2NzQwNzEx.HB8dI7Z7-hlkGiURrRdzb4K7dlOZCCvxMNoxD-biydog.BmOh3STZ40M-vr7dcgW10MyxMTy6LXBGnphJCl72764g.JPEG.lovefts777/IMG_9915.JPG", "연어덮밥",  9000, 4, "소고기덮밥",  8000, 3, "2020-06-09"))
-document.write(makeReviewTable("갈비3선(구 서면대포집)", "http://naver.me/xrh6JnL3", "20200612.jpg", "돼지갈비찜정식",  10900, 4, "돼지갈비찜정식",  10900, 4, "2020-06-12"))
-document.write(makeReviewTable("맥도날드 서면3호점", "http://naver.me/xFQLgBF5", "20200616.jpg", "트리플치즈버거",  7900, 4, "베이컨토마토디럭스",  7800, 4, "2020-06-16"))
+document.write(makeReviewTable("갈비3선(구 서면대포집)", "http://naver.me/xrh6JnL3", "img/20200612.jpg", "돼지갈비찜정식",  10900, 4, "돼지갈비찜정식",  10900, 4, "2020-06-12"))
+document.write(makeReviewTable("맥도날드 서면3호점", "http://naver.me/xFQLgBF5", "img/20200616.jpg", "트리플치즈버거",  7900, 4, "베이컨토마토디럭스",  7800, 4, "2020-06-16"))
 
 //예시
-document.write(makeReviewTable("예시", "#", "20200612.jpg", "정식",  10000, 1, "정식",  100000, 2, "2020-06-12"))
+//document.write(makeReviewTable("예시", "#", "20200612.jpg", "정식",  10000, 1, "정식",  100000, 2, "2020-06-12"))
