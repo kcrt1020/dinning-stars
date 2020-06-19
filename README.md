@@ -1,4 +1,4 @@
-# Hello, Seo-myeoner!
+# Hello, Seomyeoner!
 
 서면에서 점심시간 맛집을 찾아돌아다니고 있지 않나요?
 직접 돈주고 다녀온 솔직후기를 지금 만나보세요!
