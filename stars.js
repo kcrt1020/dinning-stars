@@ -1,9 +1,3 @@
-//const reviewTopen = document.createElement("div")
-//const reviewTclose = document.createElement("/div")
-
-//const reviewTopen = document.createElement("div")
-//const reviewTclose = document.createElement("/div")
-
 //숫자데이터 입력받으면 검정별을 숫자데이터만큼 찍기 + 공백은 텅빈별찍기
 function rankToStar(rank){
     switch(rank){
@@ -53,36 +47,22 @@ function makeReviewTable(shopname, mapaddr, imgaddr, menu1, price1, rank1, menu2
 }
 
 
-// //유저테이블을 담는 큰 테이블만들기+작은테이블 한꺼번에 만들기 ->  function으로 리팩토링
-// function makeShowReview(shopname, mapaddr, imgaddr, menu1, price1, rank1, menu2, price2, rank2, date){
+// //이미지슬라이드
+// //참고링크 : https://nine8007.tistory.com/entry/%EC%B4%88%EA%B0%84%EB%8B%A8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-Javascript
+// let firstImg = document.getElementsByClassName('img')[0]
+// let imgArr = [] //이미지여러개넣기
+// let imgIndex = 0;
 
-//     let divtag = "<div class='restaurant'>";
-//     divtag += "<h2> <a href='" + mapaddr +"'>" + shopname + "</a> </h2>";
-//     divtag += "<img src = '" + imgaddr + "'>"
-
-//     divtag += "<div class = 'table'>"
-//     divtag += "<p><strong> Ran's review </strong> </p>"
-//     divtag += "<ul>"
-//     divtag += "<li class='menu'> Menu : " + menu1 + "</li>"
-//     divtag += "<li class='price'> Price : " + price1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "원 </li>"
-//     divtag += "<li class='rank'> Rank : " + rankToStar(rank1) + "</li>"
-//     divtag += "</ul>"
-//     divtag += "</div>"
-
-//     divtag += "<div class = 'table'>"
-//     divtag += "<p><strong> Won's review </strong></p>"
-//     divtag += "<ul>"
-//     divtag += "<li class='menu'> Menu : " + menu2 + "</li>"
-//     divtag += "<li class='price'> Price : " + price2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "원 </li>"
-//     divtag += "<li class='rank'> Rank : " + rankToStar(rank2) + "</li>"
-//     divtag += "</ul>"
-//     divtag += "</div>"
-
-//     divtag += "<div class='date'>" + date + "</div></div>"
-   
-//     return divtag;
+// function imgslide(){
+//     firstImg.setAttribute("src",firstImg[imgIndex]);
+//     imgIndex++;
+//     if(imgIndex >= imgArr.length){
+//         imgIndex =0;
+//     }
 // }
-// document.write(makeShowReview("갈비3선(구 서면대포집)", "http://naver.me/xrh6JnL3", "20200612.jpg", "돼지갈비찜정식",  10900, 3, "돼지갈비찜정식",  10900, 0, "2020-06-12"))
+
+// setInterval(imgslide, 3000);
+
 
 
 //실제데이터 : shopname, mapaddr, imgaddr,  menu1, price1, rank1, menu2, price2, rank2, date
@@ -93,4 +73,4 @@ document.write(makeReviewTable("에그드랍 전포카페거리", "http://naver.
 
 
 //예시
-//document.write(makeReviewTable("예시", "#", "20200612.jpg", "정식",  10000, 1, "정식",  100000, 2, "2020-06-12"))
+//document.write(makeReviewTable("예시", "#", "20200612.jpg", "음식메뉴",  10000, 1, "음식메뉴",  100000, 2, "2020-06-12"))
