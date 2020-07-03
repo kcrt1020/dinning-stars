@@ -73,6 +73,7 @@ document.write(makeReviewTable("맥도날드 서면3호점", "http://naver.me/xF
 document.write(makeReviewTable("에그드랍 전포카페거리", "http://naver.me/G3tKAIWF", "<img src = 'img/20200619eggdrop.jpg'>", "베이컨더블치즈",  7900, 4, "갈릭베이컨치즈",  8400, 5, "2020-06-19"))
 document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJZDTrV", "<img src = 'img/20200623buffet1.jpg' id='slide'>" , "까르보나라,<br>목살스테이크",  9900, 5, "까르보나라, <br>목살스테이크",  9900, 5, "2020-06-23"))
 document.write(makeReviewTable("원카츠", "http://naver.me/GfZ5HYEE", "<img src = 'img/20200630.jpg'>" , "철판치즈카츠",  9500, 5, "등심카츠",  6000, 5, "2020-06-30"))
+document.write(makeReviewTable("서브웨이", "http://naver.me/G4IPGcEy", "<img src = 'img/20200703subway.jpg'>" , "서브웨이멜트", 8050, 5, "서브웨이멜트",  8050, 4, "2020-07-03"))
 
 
 //예시
