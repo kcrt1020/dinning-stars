@@ -46,7 +46,6 @@ function makeReviewTable(shopname, mapaddr, imgaddr, menu1, price1, rank1, menu2
     return divtag;
 }
 
-
 //이미지슬라이드
 //참고링크 : https://nine8007.tistory.com/entry/%EC%B4%88%EA%B0%84%EB%8B%A8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-Javascript
 let firstImg = document.getElementById("slide")
@@ -64,6 +63,9 @@ setInterval(imgslide, 3000)
 
 
 
+//데이터입력예시
+//document.write(makeReviewTable("예시", "#", "20200612.jpg", "음식메뉴",  10000, 1, "음식메뉴",  100000, 2, "2020-06-12"))
+
 
 
 //실제데이터 : shopname, mapaddr, imgaddr,  menu1, price1, rank1, menu2, price2, rank2, date
@@ -74,7 +76,6 @@ document.write(makeReviewTable("에그드랍 전포카페거리", "http://naver.
 document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJZDTrV", "<img src = 'img/20200623buffet1.jpg' id='slide'>" , "까르보나라,<br>목살스테이크",  9900, 5, "까르보나라, <br>목살스테이크",  9900, 5, "2020-06-23"))
 document.write(makeReviewTable("원카츠", "http://naver.me/GfZ5HYEE", "<img src = 'img/20200630.jpg'>" , "철판치즈카츠",  9500, 5, "등심카츠",  6000, 5, "2020-06-30"))
 document.write(makeReviewTable("서브웨이", "http://naver.me/G4IPGcEy", "<img src = 'img/20200703subway.jpg'>" , "서브웨이멜트", 8050, 5, "서브웨이멜트",  8050, 4, "2020-07-03"))
+document.write(makeReviewTable("부바스플러스", "http://naver.me/xKJrZ4U8", "<img src = 'img/20200717.jpg'>" , "알리오올리오", 7500, 3, "불고기라이스",  7500, 1, "2020-07-17"))
 
-
-//예시
-//document.write(makeReviewTable("예시", "#", "20200612.jpg", "음식메뉴",  10000, 1, "음식메뉴",  100000, 2, "2020-06-12"))
+document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJZDTrV", "<img src = 'img/20200623buffet1.jpg' id='slide'>" , "까르보나라,<br>목살스테이크",  9900, 5, "까르보나라, <br>목살스테이크",  9900, 5, "2020-06-23"))

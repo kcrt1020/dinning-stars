@@ -66,10 +66,11 @@ ul{
 
 .table > p {
     font-size: 25px;
+    margin: 20px 0px 10px 0px;
 }
 
 .table > ul {
-    font-size: 1.0rem;
+    font-size: 16px;
 }
 
 .date{
