@@ -73,7 +73,7 @@ document.write(makeReviewTable("각방", "http://naver.me/5LfKibcx", "<img src =
 document.write(makeReviewTable("갈비3선(구 서면대포집)", "http://naver.me/xrh6JnL3", "<img src = 'img/20200612.jpg'>", "돼지갈비찜정식",  10900, 4, "돼지갈비찜정식",  10900, 4, "2020-06-12"))
 document.write(makeReviewTable("맥도날드 서면3호점", "http://naver.me/xFQLgBF5", "<img src = 'img/20200616.jpg'>", "트리플치즈버거",  7900, 5, "베이컨토마토디럭스",  7800, 4, "2020-06-16"))
 document.write(makeReviewTable("에그드랍 전포카페거리", "http://naver.me/G3tKAIWF", "<img src = 'img/20200619eggdrop.jpg'>", "베이컨더블치즈",  7900, 4, "갈릭베이컨치즈",  8400, 5, "2020-06-19"))
-document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJZDTrV", "<img src = 'img/20200623buffet1.jpg' id='slide'>" , "까르보나라,<br>목살스테이크",  9900, 5, "까르보나라, <br>목살스테이크",  9900, 5, "2020-06-23"))
+document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJZDTrV", "<img src = 'img/20200623buffet1.jpg' id='slide'>" , "까르보나라,목살스테이크",  9900, 5, "까르보나라,목살스테이크",  9900, 5, "2020-06-23"))
 document.write(makeReviewTable("원카츠", "http://naver.me/GfZ5HYEE", "<img src = 'img/20200630.jpg'>" , "철판치즈카츠",  9500, 5, "등심카츠",  6000, 5, "2020-06-30"))
 document.write(makeReviewTable("서브웨이", "http://naver.me/G4IPGcEy", "<img src = 'img/20200703subway.jpg'>" , "서브웨이멜트", 8050, 5, "서브웨이멜트",  8050, 4, "2020-07-03"))
 document.write(makeReviewTable("부바스플러스", "http://naver.me/xKJrZ4U8", "<img src = 'img/20200717.jpg'>" , "알리오올리오", 7500, 3, "불고기라이스",  7500, 1, "2020-07-17"))
