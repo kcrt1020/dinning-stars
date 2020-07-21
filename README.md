@@ -5,7 +5,7 @@
 
 [서면맛집별점표 Dinning-stars](https://kcrt1020.github.io/dinning-stars/stars.html)
 
-# 🐂🐕
+# 🐂🐕(소개)
 
 공통점 : 둘 다 고기러버입니다.
 
