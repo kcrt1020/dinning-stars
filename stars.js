@@ -77,5 +77,5 @@ document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJ
 document.write(makeReviewTable("원카츠", "http://naver.me/GfZ5HYEE", "<img src = 'img/20200630.jpg'>" , "철판치즈카츠",  9500, 5, "등심카츠",  6000, 5, "2020-06-30"))
 document.write(makeReviewTable("서브웨이", "http://naver.me/G4IPGcEy", "<img src = 'img/20200703subway.jpg'>" , "서브웨이멜트", 8050, 5, "서브웨이멜트",  8050, 4, "2020-07-03"))
 document.write(makeReviewTable("부바스플러스", "http://naver.me/xKJrZ4U8", "<img src = 'img/20200717.jpg'>" , "알리오올리오", 7500, 3, "불고기라이스",  7500, 1, "2020-07-17"))
+document.write(makeReviewTable("맛있는 하노이", "http://naver.me/GT7K7xB4", "<img src = 'img/20200721.jpg'>" , "퍼보하노이쌀국수", 8000, 4, "퍼보하노이쌀국수",  8000, 5, "2020-07-21"))
 
-document.write(makeReviewTable("오쉐르웨딩홀 뷔페", "http://naver.me/xKJZDTrV", "<img src = 'img/20200623buffet1.jpg' id='slide'>" , "까르보나라,<br>목살스테이크",  9900, 5, "까르보나라, <br>목살스테이크",  9900, 5, "2020-06-23"))
