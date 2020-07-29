@@ -59,14 +59,12 @@ function imgslide(){
         imgIndex =0;
     }
 }
-setInterval(imgslide, 3000)
+//setInterval(imgslide, 3000)
 
 
 
 //데이터입력예시
 //document.write(makeReviewTable("예시", "#", "20200612.jpg", "음식메뉴",  10000, 1, "음식메뉴",  100000, 2, "2020-06-12"))
-
-
 
 //실제데이터 : shopname, mapaddr, imgaddr,  menu1, price1, rank1, menu2, price2, rank2, date
 document.write(makeReviewTable("각방", "http://naver.me/5LfKibcx", "<img src = 'http://blogfiles.naver.net/MjAxOTEyMDNfMTM4/MDAxNTc1MzM2NzQwNzEx.HB8dI7Z7-hlkGiURrRdzb4K7dlOZCCvxMNoxD-biydog.BmOh3STZ40M-vr7dcgW10MyxMTy6LXBGnphJCl72764g.JPEG.lovefts777/IMG_9915.JPG'>", "연어덮밥",  9000, 4, "소고기덮밥",  8000, 3, "2020-06-09"))
