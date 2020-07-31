@@ -92,3 +92,8 @@ footer{
     font-family: "Hi Melody";
     font-size: 1.2rem;
 }
+
+section{
+    width: 1540px;
+    margin: 0 auto;
+}
