@@ -78,4 +78,6 @@ document.write(makeReviewTable("부바스플러스", "http://naver.me/xKJrZ4U8",
 document.write(makeReviewTable("맛있는 하노이", "http://naver.me/GT7K7xB4", "<img src = 'img/20200721.jpg'>" , "퍼보하노이쌀국수", 8000, 4, "퍼보하노이쌀국수",  8000, 5, "2020-07-21"))
 document.write(makeReviewTable("스테이크어스", "http://naver.me/F3IWVg63", "<img src = 'img/20200724.jpg'>" , "프라임스테이크", 9900, 4, "스테이크볶음밥",  8900, 5, "2020-07-24"))
 document.write(makeReviewTable("건양정홍삼삼계탕", "http://naver.me/xBDIn9uB", "<img src = 'img/20200728.jpg'>" , "갈비탕", 13000, 5, "갈비탕",  13000, 5, "2020-07-28"))
+document.write(makeReviewTable("마스타철판/이오카츠", "http://naver.me/xxaBpNij", "<img src = 'img/20200731.jpg'>" , "해물철판볶음우동", 7900, 4, "이오카츠정식",  9900, 3, "2020-07-31"))
+document.write(makeReviewTable("가득족발", "http://naver.me/FoASWj4F", "<img src = 'img/20200804.jpg'>" , "족발정식", 8000, 4, "족발정식",  8000, 5, "2020-08-04"))
 
